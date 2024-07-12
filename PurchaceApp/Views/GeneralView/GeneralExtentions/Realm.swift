@@ -25,8 +25,16 @@ extension GeneralViewController {
             if let firstTextField = alertController.textFields?.first,
                let secondTextField = alertController.textFields?.last {
                 
-                let input1 = firstTextField.text ?? ""
-                let input2 = Double(secondTextField.text ?? "") ?? 0.0
+                var input1: String = "Null"
+                var input2: Double = 0.0
+                
+                if firstTextField.text?.count != 0 {
+                    input1 = firstTextField.text!
+                }
+                
+                if secondTextField.text?.count != 0 {
+                    input2 = Double(secondTextField.text!)!
+                }
                 
                 PurchaseObject.addPurchase(text: input1, cost: input2)
                 self.tableView.reloadData()
