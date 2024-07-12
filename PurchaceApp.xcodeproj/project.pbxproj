@@ -15,6 +15,8 @@
 		63D630562C417BF700AD83F2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D630552C417BF700AD83F2 /* Base */; };
 		63D6305E2C417C7D00AD83F2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 63D6305D2C417C7D00AD83F2 /* Podfile */; };
 		63D630612C417D9200AD83F2 /* PurchaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630602C417D9200AD83F2 /* PurchaseObject.swift */; };
+		63D630662C41831000AD83F2 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630652C41831000AD83F2 /* TableView.swift */; };
+		63D630682C41833600AD83F2 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630672C41833600AD83F2 /* Realm.swift */; };
 		AE337083733950EF533461E1 /* Pods_PurchaceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129CFB82A1B27DBD6D52AEEC /* Pods_PurchaceApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		63D630572C417BF700AD83F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D6305D2C417C7D00AD83F2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		63D630602C417D9200AD83F2 /* PurchaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseObject.swift; sourceTree = "<group>"; };
+		63D630652C41831000AD83F2 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		63D630672C41833600AD83F2 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		8B7F3F744FF830907C9CB394 /* Pods-PurchaceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurchaceApp.release.xcconfig"; path = "Target Support Files/Pods-PurchaceApp/Pods-PurchaceApp.release.xcconfig"; sourceTree = "<group>"; };
 		CCD7033515E9DE2E559FE658 /* Pods-PurchaceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurchaceApp.debug.xcconfig"; path = "Target Support Files/Pods-PurchaceApp/Pods-PurchaceApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +95,27 @@
 		63D630622C417F4000AD83F2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				63D6304D2C417BF600AD83F2 /* GeneralViewController.swift */,
+				63D630632C4182F000AD83F2 /* GeneralView */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		63D630632C4182F000AD83F2 /* GeneralView */ = {
+			isa = PBXGroup;
+			children = (
+				63D630642C4182F800AD83F2 /* GeneralExtentions */,
+				63D6304D2C417BF600AD83F2 /* GeneralViewController.swift */,
+			);
+			path = GeneralView;
+			sourceTree = "<group>";
+		};
+		63D630642C4182F800AD83F2 /* GeneralExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				63D630652C41831000AD83F2 /* TableView.swift */,
+				63D630672C41833600AD83F2 /* Realm.swift */,
+			);
+			path = GeneralExtentions;
 			sourceTree = "<group>";
 		};
 		78AD12039C49FB4FDFE7B33B /* Frameworks */ = {
@@ -230,9 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D6304E2C417BF600AD83F2 /* GeneralViewController.swift in Sources */,
+				63D630662C41831000AD83F2 /* TableView.swift in Sources */,
 				63D630612C417D9200AD83F2 /* PurchaseObject.swift in Sources */,
 				63D6304A2C417BF600AD83F2 /* AppDelegate.swift in Sources */,
 				63D6304C2C417BF600AD83F2 /* SceneDelegate.swift in Sources */,
+				63D630682C41833600AD83F2 /* Realm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
