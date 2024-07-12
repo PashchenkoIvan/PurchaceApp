@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		63D6304A2C417BF600AD83F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630492C417BF600AD83F2 /* AppDelegate.swift */; };
 		63D6304C2C417BF600AD83F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6304B2C417BF600AD83F2 /* SceneDelegate.swift */; };
-		63D6304E2C417BF600AD83F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6304D2C417BF600AD83F2 /* ViewController.swift */; };
+		63D6304E2C417BF600AD83F2 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6304D2C417BF600AD83F2 /* GeneralViewController.swift */; };
 		63D630512C417BF600AD83F2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D630502C417BF600AD83F2 /* Base */; };
 		63D630532C417BF700AD83F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D630522C417BF700AD83F2 /* Assets.xcassets */; };
 		63D630562C417BF700AD83F2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D630552C417BF700AD83F2 /* Base */; };
 		63D6305E2C417C7D00AD83F2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 63D6305D2C417C7D00AD83F2 /* Podfile */; };
-		63D630612C417D9200AD83F2 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630602C417D9200AD83F2 /* RealmHelper.swift */; };
+		63D630612C417D9200AD83F2 /* PurchaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630602C417D9200AD83F2 /* PurchaseObject.swift */; };
 		AE337083733950EF533461E1 /* Pods_PurchaceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129CFB82A1B27DBD6D52AEEC /* Pods_PurchaceApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,13 +23,13 @@
 		63D630462C417BF600AD83F2 /* PurchaceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurchaceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D630492C417BF600AD83F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63D6304B2C417BF600AD83F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63D6304D2C417BF600AD83F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63D6304D2C417BF600AD83F2 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 		63D630502C417BF600AD83F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63D630522C417BF700AD83F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D630552C417BF700AD83F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63D630572C417BF700AD83F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D6305D2C417C7D00AD83F2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		63D630602C417D9200AD83F2 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		63D630602C417D9200AD83F2 /* PurchaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseObject.swift; sourceTree = "<group>"; };
 		8B7F3F744FF830907C9CB394 /* Pods-PurchaceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurchaceApp.release.xcconfig"; path = "Target Support Files/Pods-PurchaceApp/Pods-PurchaceApp.release.xcconfig"; sourceTree = "<group>"; };
 		CCD7033515E9DE2E559FE658 /* Pods-PurchaceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurchaceApp.debug.xcconfig"; path = "Target Support Files/Pods-PurchaceApp/Pods-PurchaceApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,10 +68,10 @@
 		63D630482C417BF600AD83F2 /* PurchaceApp */ = {
 			isa = PBXGroup;
 			children = (
+				63D630622C417F4000AD83F2 /* Views */,
 				63D6305F2C417D8100AD83F2 /* RealmHelper */,
 				63D630492C417BF600AD83F2 /* AppDelegate.swift */,
 				63D6304B2C417BF600AD83F2 /* SceneDelegate.swift */,
-				63D6304D2C417BF600AD83F2 /* ViewController.swift */,
 				63D6304F2C417BF600AD83F2 /* Main.storyboard */,
 				63D630522C417BF700AD83F2 /* Assets.xcassets */,
 				63D630542C417BF700AD83F2 /* LaunchScreen.storyboard */,
@@ -83,9 +83,17 @@
 		63D6305F2C417D8100AD83F2 /* RealmHelper */ = {
 			isa = PBXGroup;
 			children = (
-				63D630602C417D9200AD83F2 /* RealmHelper.swift */,
+				63D630602C417D9200AD83F2 /* PurchaseObject.swift */,
 			);
 			path = RealmHelper;
+			sourceTree = "<group>";
+		};
+		63D630622C417F4000AD83F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63D6304D2C417BF600AD83F2 /* GeneralViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		78AD12039C49FB4FDFE7B33B /* Frameworks */ = {
@@ -221,8 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D6304E2C417BF600AD83F2 /* ViewController.swift in Sources */,
-				63D630612C417D9200AD83F2 /* RealmHelper.swift in Sources */,
+				63D6304E2C417BF600AD83F2 /* GeneralViewController.swift in Sources */,
+				63D630612C417D9200AD83F2 /* PurchaseObject.swift in Sources */,
 				63D6304A2C417BF600AD83F2 /* AppDelegate.swift in Sources */,
 				63D6304C2C417BF600AD83F2 /* SceneDelegate.swift in Sources */,
 			);
@@ -378,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43JJRWSTM6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PurchaceApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -407,6 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43JJRWSTM6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PurchaceApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
