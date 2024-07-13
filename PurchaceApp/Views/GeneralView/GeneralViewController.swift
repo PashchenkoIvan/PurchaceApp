@@ -1,18 +1,16 @@
 //
-//  ViewController.swift
+//  GeneralViewController.swift
 //  PurchaceApp
 //
-//  Created by Пащенко Иван on 12.07.2024.
+//  Created by Пащенко Иван on 13.07.2024.
 //
 
 import UIKit
 
 class GeneralViewController: UIViewController {
-    
-    @IBOutlet weak var tableView: UITableView!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
         self.navigationItem.title = "General"
         
@@ -21,6 +19,6 @@ class GeneralViewController: UIViewController {
             navigationItem.rightBarButtonItem = addButton
         }
         
-        
     }
+    
 }

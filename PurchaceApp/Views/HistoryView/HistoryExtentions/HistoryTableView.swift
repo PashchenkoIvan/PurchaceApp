@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension GeneralViewController: UITableViewDataSource {
+extension HistoryViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return PurchaseObject.getAllPurchases().count
     }
@@ -30,7 +30,7 @@ extension GeneralViewController: UITableViewDataSource {
     
 }
 
-extension GeneralViewController: UITableViewDelegate {
+extension HistoryViewController: UITableViewDelegate {
     @available(iOS 11.0, *)
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let deleteAction = UIContextualAction(style: .destructive, title: nil) { (_, _, completionHandler) in

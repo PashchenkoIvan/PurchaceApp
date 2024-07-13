@@ -7,33 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63495BFF2C42047400646941 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63495BFE2C42047400646941 /* GeneralViewController.swift */; };
+		63495C042C42073800646941 /* GeneralRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63495C032C42073800646941 /* GeneralRealm.swift */; };
 		63D6304A2C417BF600AD83F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630492C417BF600AD83F2 /* AppDelegate.swift */; };
 		63D6304C2C417BF600AD83F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6304B2C417BF600AD83F2 /* SceneDelegate.swift */; };
-		63D6304E2C417BF600AD83F2 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6304D2C417BF600AD83F2 /* GeneralViewController.swift */; };
+		63D6304E2C417BF600AD83F2 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6304D2C417BF600AD83F2 /* HistoryViewController.swift */; };
 		63D630512C417BF600AD83F2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D630502C417BF600AD83F2 /* Base */; };
 		63D630532C417BF700AD83F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D630522C417BF700AD83F2 /* Assets.xcassets */; };
 		63D630562C417BF700AD83F2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D630552C417BF700AD83F2 /* Base */; };
 		63D6305E2C417C7D00AD83F2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 63D6305D2C417C7D00AD83F2 /* Podfile */; };
 		63D630612C417D9200AD83F2 /* PurchaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630602C417D9200AD83F2 /* PurchaseObject.swift */; };
-		63D630662C41831000AD83F2 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630652C41831000AD83F2 /* TableView.swift */; };
-		63D630682C41833600AD83F2 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630672C41833600AD83F2 /* Realm.swift */; };
+		63D630662C41831000AD83F2 /* HistoryTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D630652C41831000AD83F2 /* HistoryTableView.swift */; };
 		AE337083733950EF533461E1 /* Pods_PurchaceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129CFB82A1B27DBD6D52AEEC /* Pods_PurchaceApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		129CFB82A1B27DBD6D52AEEC /* Pods_PurchaceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurchaceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63495BFE2C42047400646941 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		63495C032C42073800646941 /* GeneralRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRealm.swift; sourceTree = "<group>"; };
 		63D630462C417BF600AD83F2 /* PurchaceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurchaceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D630492C417BF600AD83F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63D6304B2C417BF600AD83F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63D6304D2C417BF600AD83F2 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		63D6304D2C417BF600AD83F2 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		63D630502C417BF600AD83F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63D630522C417BF700AD83F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D630552C417BF700AD83F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63D630572C417BF700AD83F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D6305D2C417C7D00AD83F2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		63D630602C417D9200AD83F2 /* PurchaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseObject.swift; sourceTree = "<group>"; };
-		63D630652C41831000AD83F2 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
-		63D630672C41833600AD83F2 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		63D630652C41831000AD83F2 /* HistoryTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableView.swift; sourceTree = "<group>"; };
 		8B7F3F744FF830907C9CB394 /* Pods-PurchaceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurchaceApp.release.xcconfig"; path = "Target Support Files/Pods-PurchaceApp/Pods-PurchaceApp.release.xcconfig"; sourceTree = "<group>"; };
 		CCD7033515E9DE2E559FE658 /* Pods-PurchaceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurchaceApp.debug.xcconfig"; path = "Target Support Files/Pods-PurchaceApp/Pods-PurchaceApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +52,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63495BFD2C42045C00646941 /* GeneralView */ = {
+			isa = PBXGroup;
+			children = (
+				63495C002C42069700646941 /* GeneralExtentions */,
+				63495BFE2C42047400646941 /* GeneralViewController.swift */,
+			);
+			path = GeneralView;
+			sourceTree = "<group>";
+		};
+		63495C002C42069700646941 /* GeneralExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				63495C032C42073800646941 /* GeneralRealm.swift */,
+			);
+			path = GeneralExtentions;
+			sourceTree = "<group>";
+		};
 		63D6303D2C417BF600AD83F2 = {
 			isa = PBXGroup;
 			children = (
@@ -95,27 +114,27 @@
 		63D630622C417F4000AD83F2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				63D630632C4182F000AD83F2 /* GeneralView */,
+				63495BFD2C42045C00646941 /* GeneralView */,
+				63D630632C4182F000AD83F2 /* HistoryView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		63D630632C4182F000AD83F2 /* GeneralView */ = {
+		63D630632C4182F000AD83F2 /* HistoryView */ = {
 			isa = PBXGroup;
 			children = (
-				63D630642C4182F800AD83F2 /* GeneralExtentions */,
-				63D6304D2C417BF600AD83F2 /* GeneralViewController.swift */,
+				63D630642C4182F800AD83F2 /* HistoryExtentions */,
+				63D6304D2C417BF600AD83F2 /* HistoryViewController.swift */,
 			);
-			path = GeneralView;
+			path = HistoryView;
 			sourceTree = "<group>";
 		};
-		63D630642C4182F800AD83F2 /* GeneralExtentions */ = {
+		63D630642C4182F800AD83F2 /* HistoryExtentions */ = {
 			isa = PBXGroup;
 			children = (
-				63D630652C41831000AD83F2 /* TableView.swift */,
-				63D630672C41833600AD83F2 /* Realm.swift */,
+				63D630652C41831000AD83F2 /* HistoryTableView.swift */,
 			);
-			path = GeneralExtentions;
+			path = HistoryExtentions;
 			sourceTree = "<group>";
 		};
 		78AD12039C49FB4FDFE7B33B /* Frameworks */ = {
@@ -251,12 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D6304E2C417BF600AD83F2 /* GeneralViewController.swift in Sources */,
-				63D630662C41831000AD83F2 /* TableView.swift in Sources */,
+				63D6304E2C417BF600AD83F2 /* HistoryViewController.swift in Sources */,
+				63495BFF2C42047400646941 /* GeneralViewController.swift in Sources */,
+				63D630662C41831000AD83F2 /* HistoryTableView.swift in Sources */,
 				63D630612C417D9200AD83F2 /* PurchaseObject.swift in Sources */,
 				63D6304A2C417BF600AD83F2 /* AppDelegate.swift in Sources */,
 				63D6304C2C417BF600AD83F2 /* SceneDelegate.swift in Sources */,
-				63D630682C41833600AD83F2 /* Realm.swift in Sources */,
+				63495C042C42073800646941 /* GeneralRealm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

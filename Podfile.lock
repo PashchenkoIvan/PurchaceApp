@@ -1,4 +1,5 @@
 PODS:
+  - AAChartKit (9.0.0)
   - Alamofire (5.9.1)
   - Kingfisher (7.11.0)
   - Realm (10.52.1):
@@ -9,6 +10,7 @@ PODS:
   - SkeletonView (1.30.4)
 
 DEPENDENCIES:
+  - AAChartKit (from `https://github.com/AAChartModel/AAChartKit.git`)
   - Alamofire
   - Kingfisher
   - RealmSwift
@@ -22,13 +24,23 @@ SPEC REPOS:
     - RealmSwift
     - SkeletonView
 
+EXTERNAL SOURCES:
+  AAChartKit:
+    :git: https://github.com/AAChartModel/AAChartKit.git
+
+CHECKOUT OPTIONS:
+  AAChartKit:
+    :commit: e6808eb4e48620032b6c522e08966058ac3ebdb7
+    :git: https://github.com/AAChartModel/AAChartKit.git
+
 SPEC CHECKSUMS:
+  AAChartKit: 5f7fe0e22cd22b70e8d1466129e295c6147d607e
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
   Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
   Realm: 5b0f6fe519911831fff94e6e6fba8fd404fa20ed
   RealmSwift: 6963a458f4f5f3f0df5cca69dece5c802c7b7cad
   SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
 
-PODFILE CHECKSUM: 46692a69e2a5f203b9591ceb84275075c0d4ff6d
+PODFILE CHECKSUM: 215bf93de2e2e5cd6b86c49640d5aa7515b6d57a
 
 COCOAPODS: 1.15.2

@@ -8,19 +8,19 @@
 import Foundation
 import UIKit
 
-extension GeneralViewController {
+extension HistoryViewController {
     @objc func addPurchase() {
         let alertController = UIAlertController(title: "Enter the purchase data", message: nil, preferredStyle: .alert)
-
+        
         alertController.addTextField { textField in
             textField.placeholder = "Enter the product"
         }
-
+        
         alertController.addTextField { textField in
             textField.placeholder = "Enter the cost"
             textField.keyboardType = .decimalPad
         }
-
+        
         alertController.addAction(UIAlertAction(title: "OK", style: .default) { action in
             if let firstTextField = alertController.textFields?.first,
                let secondTextField = alertController.textFields?.last {
@@ -40,7 +40,7 @@ extension GeneralViewController {
                 self.tableView.reloadData()
             }
         })
-
+        
         self.present(alertController, animated: true, completion: nil)
     }
 }
